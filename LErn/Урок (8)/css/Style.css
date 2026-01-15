@@ -1,0 +1,11 @@
+.lerem1{
+  font-size: 40px;
+  color: green;
+}
+span.span1{
+  font-size: 20px;
+  color: rgb(128, 0, 117);
+}
+p.lerem1.span1{
+  color: blue;
+}

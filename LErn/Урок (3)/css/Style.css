@@ -1,0 +1,49 @@
+
+body{
+  padding: 20px;
+}
+div{ 
+  padding-bottom: 10px;
+}
+.style1{
+  font-family: "Arial", Times, Baskerville, Georgia, fantasy;
+}
+.style2{
+  font-size: 40px;
+  color: #ff0000;
+  font-style: italic;
+}
+.style3{
+  font-size: 40px;
+  font-style: oblique;
+}
+.style4{
+  font-weight: bold;
+  font-size: 30px;
+}
+.style5{
+  font-size: 30px;
+  text-align: justify;
+}
+.style6{
+  margin-top: 10px;
+  font-size: 30px;
+  text-decoration: dashed;
+}
+.style7{
+  font-size: 40px;
+  text-shadow: 10px 2px 3px #af2222;
+}
+.style8{
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.style9{
+  font-size: 30px;
+  text-transform: capitalize;
+  text-indent: 50px;
+  letter-spacing: -3px;
+  word-spacing: 200px;
+  line-height: 70px;
+  white-space: none;
+}

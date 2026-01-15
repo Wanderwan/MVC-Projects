@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(11, 11, 46);
+}
+.main-box{
+width: 450px;
+margin: 400px auto;
+}
+.main-text{
+font-size: 45px;
+color: white;
+font-weight: 700;
+padding-left: 60px;
+}
+.input-title{
+  font-size: 18px;
+  padding: 15px 15px 15px 80px;
+  font-weight: 100;
+}
+.input-box{
+  background-color: white;
+  border-radius: 20px;
+  margin: 30px 0;
+  padding-bottom: 30px;
+  box-shadow: 0px 4px 5px blue;
+}
+.result-box{
+background-color: rgb(24, 109, 28)  ;
+height: 130px;
+border-radius: 20px;
+}
+#result{
+  color: white;
+  font-size: 20px;
+  padding: 30px 20px 15px 30px;
+  font-style: italic;
+}
+.bix{
+  margin-left:60px;
+  margin-top: 25px;
+}
+.box-inp{
+  border: 1px solid;
+  display: inline-block;
+}
+#check-btn{
+  font-size: 16px;
+  background-color: rgb(89, 30, 145);
+  color: white;
+  width: 80px;
+  height: 35px;
+  border-radius: 12px;
+}
+
+#text-value{
+  width: 200px;
+  display: none;
+  font-size: 25px;
+  margin: 10px auto;
+
+}
+#text-input{
+  font-size: 20px;
+  font-weight:600;
+  width: 250px;
+  border-bottom: 2px solid rgb(89, 30, 145) ;
+  padding-bottom:5px;
+}
+#text-input:focus{
+  border: 2px solid black;
+}
