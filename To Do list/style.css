@@ -1,0 +1,152 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Inter, system-ui, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+      color: #e5e7eb;
+    }
+
+    .todo-app {
+      width: 100%;
+      min-width: 500px;
+      background: #020617;
+      padding: 20px;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+    }
+
+    .todo-header {
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      display: block;
+      width: 250px;
+      margin: 0 auto 60px;
+      font-size: 35px;
+    }
+
+    .counter {
+      font-size: 18px;
+      color: #b7b7b8;
+      min-width: 125px;
+    }
+    .all-tasks {
+      padding: 5px 0;
+    }
+    .todo-form {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .todo-input {
+      width: 800px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      outline: none;
+      border: none;
+      background: #ffffff;
+      color: #000000;
+      font-size: 20px;
+    }
+
+    .btn-add-task {
+      width: 160px;
+      padding: 5px 10px 10px;
+      border: none;
+      border-radius: 12px;
+      background: #585858;
+      color: #fff;
+      font-size: 22px;
+      cursor: pointer;
+      transition: transform 0.1s ease, background 0.2s ease;
+    }
+
+    .btn-add-task:hover {
+      background: #453cfd;
+      transform: scale(0.95);
+    }
+
+    .todo-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .todo-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 25px 14px;
+      font-size: 22px;
+      border-radius: 14px;
+      background: #ffffff;
+      color: #000000;
+      margin: 10px 30px;
+      box-shadow: 0 10px 30px rgb(168, 168, 168);
+      transition: background 0.2s ease, transform 0.1s ease;
+    }
+
+    .todo-item:hover {
+      background: #d8d8d8;
+       transform: scale(0.99);
+    }
+
+    .todo-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .todo-left input {
+      width: 22px;
+      height: 22px;
+      accent-color: #4343ffee;
+      cursor: pointer;
+
+    }
+
+    .tasks-title {
+      color: #000;
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .todo-item.completed span {
+      text-decoration: line-through;
+      color: #747474;
+    }
+
+    .delete-btn {
+      background: none;
+      border: none;
+      font-size: 18px;
+      padding: 3px 5px;
+      margin-right: 10px;
+      cursor: pointer;
+      color: #64748b;
+      transition: color 0.2s ease, transform 0.1s ease;
+    }
+
+    .delete-btn:hover {
+      color: #ef4444;
+      transform: scale(1.2);
+    }
+
+    .tasks-box{
+      background-color: white;
+      margin: 50px auto;
+      padding: 30px 0px;
+      min-width: 800px;
+      width: 1200px;
+      height: auto;
+      border-radius: 30px;
+    }
+    
